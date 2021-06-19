@@ -13,9 +13,9 @@
     <string name="cartitem"><font fgcolor="#d4af37">Cart_Items</font></string>
 
     <string-array name="numbers">
-        <item>tshirts</item>
-        <item>trousers</item>
-        <item>shoes</item>
+        <item>restaurants1</item>
+        <item>restaurants2</item>
+        <item>restaurants3</item>
 
     </string-array>
     <string-array name="Size">
