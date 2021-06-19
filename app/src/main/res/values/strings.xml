@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name" translatable="false">Foodies</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+    <string name="sshop"><font fgcolor="#d4af37">Foodies</font></string>
+    <string name="desc">desc</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="repassword">Re-Password</string>
+    <string name="uploadproducts"><font fgcolor="#d4af37">Upload Products</font></string>
+    <string name="clothing"><font fgcolor="#d4af37"> CLOTHING</font></string>
+    <string name="productdetail"><font fgcolor="#d4af37">Product Detail</font></string>
+    <string name="cartitem"><font fgcolor="#d4af37">Cart_Items</font></string>
+
+    <string-array name="numbers">
+        <item>tshirts</item>
+        <item>trousers</item>
+        <item>shoes</item>
+
+    </string-array>
+    <string-array name="Size">
+        <item>x-Large</item>
+        <item>large</item>
+        <item>small</item>
+
+    </string-array>
+
+
+</resources>
