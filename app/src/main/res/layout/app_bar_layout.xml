@@ -7,12 +7,7 @@
     android:id="@+id/main_app_bar">
 
 
-<!--    <ImageView-->
-<!--        android:id="@+id/addtocart_icon"-->
-<!--        android:layout_width="90dp"-->
-<!--        android:src="@drawable/carticon"-->
-<!--        android:layout_marginLeft="290dp"-->
-<!--        android:layout_height="50dp"/>-->
+
 
 
 </androidx.appcompat.widget.Toolbar>

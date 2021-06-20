@@ -16,6 +16,8 @@
         <include
             layout="@layout/app_bar_layout">
         </include>
+
+
         <ImageView
             android:id="@+id/cart_image"
             android:src="@drawable/whitecarticon"

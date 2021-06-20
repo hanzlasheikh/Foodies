@@ -11,9 +11,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Foodies"
+        android:text="Delivery Drone"
         android:textColor="#ffffff"
-        android:textSize="80sp"
+        android:textSize="60sp"
+        android:textStyle="bold"
         android:layout_marginTop="200dp"
         android:layout_centerHorizontal="true"
         android:fontFamily="cursive"/>
@@ -28,6 +29,7 @@
         android:indeterminateTintMode="src_in"
         android:layout_centerVertical="true"
         android:indeterminate="true" />
+
 
 
 
