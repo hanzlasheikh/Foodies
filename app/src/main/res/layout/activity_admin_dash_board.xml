@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".AdminDashBoardActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        android:id="@+id/appbar_layout"
+        layout="@layout/app_bar_layout">
+    </include>
+    <ImageView
+        android:id="@+id/up_load_icon"
+        android:layout_centerHorizontal="true"
+android:layout_marginTop="100dp"
+        android:layout_width="250dp"
+        android:background="@drawable/uploadicon"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/upload_products_txt"
+        android:layout_below="@+id/up_load_icon"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textColor="#ffa500"
+        android:layout_height="55dp"
+        android:textSize="40sp"
+        android:text="Upload Products"/>
+
+    <ImageView
+        android:id="@+id/check_or_image"
+        android:layout_below="@+id/upload_products_txt"
+        android:layout_centerHorizontal="true"
+android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:background="@drawable/order"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/order_products_txt"
+        android:layout_below="@+id/check_or_image"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textColor="#ffa500"
+        android:layout_height="55dp"
+        android:textSize="40sp"
+        android:text="Check Order's"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin DashBoard"
+        android:textSize="20sp"
+        android:padding="14dp"
+        android:textColor="@color/colorAccent"/>
+
+</RelativeLayout>
+
+
+</ScrollView>

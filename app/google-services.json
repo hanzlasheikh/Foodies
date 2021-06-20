@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "405004515925",
+    "firebase_url": "https://fir-shop-365c5.firebaseio.com",
+    "project_id": "fir-shop-365c5",
+    "storage_bucket": "fir-shop-365c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405004515925:android:09b326000f4121780bb2dc",
+        "android_client_info": {
+          "package_name": "com.riaz.sshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405004515925-ao7akd74q8cs9vpmefvhcslrumq6rrfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riaz.sshop",
+            "certificate_hash": "e6dc9b9010b0a4b680d3118f2a9c6ec9b1ee0e4e"
+          }
+        },
+        {
+          "client_id": "405004515925-rm8su70giba3e84vt014qblte848iffb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOhmdpmClVOGGbt-bajOKmaEbSsOk47t8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405004515925-rm8su70giba3e84vt014qblte848iffb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

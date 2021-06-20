@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadProductsActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            layout="@layout/app_bar_layout">
+        </include>
+
+
+        <ImageView
+            android:layout_below="@+id/appbar_layout"
+            android:id="@+id/product_detail_image"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/select_image" />
+
+        <TextView
+            android:id="@+id/p_detail_name"
+            android:layout_below="@+id/product_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:paddingStart="20dp"
+           
+            android:background="#000"
+            android:textSize="20sp"
+            android:textColor="#d4af37"
+            android:textColorHint="#d4af37"
+            android:hint="T-Shirts"/>
+
+
+        <TextView
+            android:id="@+id/p_detail_description"
+            android:layout_below="@+id/p_detail_name"
+            android:hint="Description of Shirts or Item in which click user"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/p_detail_price"
+                android:layout_below="@+id/p_detail_description"
+                android:layout_width="180dp"
+                android:hint="Price"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="35dp"/>
+
+        <TextView
+            android:id="@+id/p_detail_code"
+            android:layout_below="@+id/p_detail_description"
+            android:layout_width="180dp"
+            android:hint="code"
+            android:layout_marginLeft="205dp"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_height="35dp"/>
+
+
+
+
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:layout_marginLeft="20dp"
+            android:padding="12dp"
+            android:visibility="gone"
+            android:layout_marginTop="440dp"
+            android:layout_marginRight="20dp"/>
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="440dp"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/cornered_button"
+            android:text="Add To Cart"
+            android:id="@+id/add_to_cart"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/estxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="530dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/ectxt2"
+            android:layout_below="@id/estxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text=""/>
+
+<ImageView
+    android:layout_below="@+id/ectxt2"
+    android:layout_width="50dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="20dp"
+    android:src="@drawable/freedel"
+    android:layout_height="40dp"/>
+        <TextView
+            android:layout_below="@id/ectxt2"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#000000"
+            android:text="Free Delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:layout_below="@+id/ectxt2"
+            android:layout_width="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="180dp"
+            android:src="@drawable/cashondel"
+            android:layout_height="40dp"/>
+        <TextView
+            android:layout_below="@id/ectxt2"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#000000"
+            android:text="Cash on Delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
