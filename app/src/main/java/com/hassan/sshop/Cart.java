@@ -1,4 +1,4 @@
-package com.riaz.sshop;
+package com.hassan.sshop;
 
 public class Cart {
 

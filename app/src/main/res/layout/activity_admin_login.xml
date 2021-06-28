@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/ic_graphic_eq_orange_24dp"
                 android:drawablePadding="10dp"
-                android:text="Admin LogIn"
+                android:text="Admin Login"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
                 android:textColor="@android:color/white"
                 android:textStyle="bold" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.riaz.sshop">
+    package="com.hassan.sshop">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -16,19 +16,19 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CheckOrderActivity"></activity>
-        <activity android:name=".OrderAddressActivity" />
-        <activity android:name=".ContinueOrderActivity" />
-        <activity android:name=".AdminDashBoardActivity" />
-        <activity android:name=".CartActivity" />
-        <activity android:name=".EditProductsActivity" />
-        <activity android:name=".ShowAlIitemsActivity" />
-        <activity android:name=".UploadProductsActivity" />
-        <activity android:name=".AdminLoginActivity" />
-        <activity android:name=".SignupActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name="com.hassan.sshop.CheckOrderActivity"></activity>
+        <activity android:name="com.hassan.sshop.OrderAddressActivity" />
+        <activity android:name="com.hassan.sshop.ContinueOrderActivity" />
+        <activity android:name="com.hassan.sshop.AdminDashBoardActivity" />
+        <activity android:name="com.hassan.sshop.CartActivity" />
+        <activity android:name="com.hassan.sshop.EditProductsActivity" />
+        <activity android:name="com.hassan.sshop.ShowAlIitemsActivity" />
+        <activity android:name="com.hassan.sshop.UploadProductsActivity" />
+        <activity android:name="com.hassan.sshop.AdminLoginActivity" />
+        <activity android:name="com.hassan.sshop.SignupActivity" />
+        <activity android:name="com.hassan.sshop.LoginActivity" />
+        <activity android:name="com.hassan.sshop.MainActivity" />
+        <activity android:name="com.hassan.sshop.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

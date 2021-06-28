@@ -1,4 +1,4 @@
-package com.riaz.sshop;
+package com.hassan.sshop;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -14,7 +14,6 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 
 import com.google.android.material.navigation.NavigationView;

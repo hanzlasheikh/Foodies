@@ -1,4 +1,4 @@
-package com.riaz.sshop;
+package com.hassan.sshop;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
